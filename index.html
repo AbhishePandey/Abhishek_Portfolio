@@ -1,0 +1,594 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Abhishek Pandey Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abhishek Pandey Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Abhishek Pandey Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/work/images.jpeg"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Abhishek Pandey Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+      
+      <div class="menu-btn-container">
+  <div class="container">
+
+    <div class="menu-buttons">
+
+      <!-- CV Button -->
+      <a
+        href="assets/images/Abhishek CV (2).pdf"
+        class="cv-btn"
+        download
+      >
+        CV
+      </a>
+
+      <!-- Menu Button -->
+      <button type="button" class="menu-btn">menu</button>
+
+    </div>
+
+  </div>
+</div>
+
+<nav class="nav hidden">
+  <ol class="nav-items">
+    <li class="nav-item"><a href="#">Home</a></li>
+    <li class="nav-item"><a href="#project">My Work</a></li>
+    <li class="nav-item"><a href="#Internship">Internship</a></li>
+    <li class="nav-item"><a href="#skills">My Skills</a></li>
+    <li class="nav-item">
+      <a href="#contact" data-focused="last-focused">Contact</a>
+    </li>
+  </ol>
+</nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Hi, I'm Abhishek Pandey</span>
+            <span>software Developer</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            A frontend software engineer and interface designer who builds UX
+            rich accessible and performant websites.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#project" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">About Me</h2>
+          <div class="logos">
+        </div>
+
+            <p>Hi, I'm **Abhishek Pandey**, a Computer Science and Engineering graduate and an aspiring **Python Full Stack Developer** with an interest in **Generative AI and modern web technologies**.</p><br>
+
+            <p>I have hands-on experience with **HTML, CSS, JavaScript, React.js, Node.js, Python, Java, SQL, REST APIs, Git, and GitHub**. I also gained practical development experience during my internship at **GIPL, Jaipur**, where I worked with web technologies and APIs.</p><br>
+
+            <p>I enjoy building web applications, learning new technologies, and solving real-world problems through programming. Currently, I am strengthening my skills in **Python Full Stack Development and Generative AI** and looking for an opportunity where I can contribute to real-world projects while growing as a software developer.</p>
+
+
+
+
+           
+          </div> 
+        </div>
+      </section>
+
+    
+ 
+
+
+
+     <section class="project">
+  <div class="container">
+    <h2 class="h2" id="project">My Projects</h2>
+
+    <div class="work-boxes">
+
+      <!-- Project 1: Student Management System -->
+      <div class="work-box">
+        <div class="work-textbox">
+
+          <h3 class="h3">Student Management System</h3>
+
+          <p class="work-text">
+            A desktop-based Student Management System for managing student
+            information, courses, marks and other academic details.
+          </p>
+
+          <ol class="work-technologies">
+            <li>Java</li>
+            <li>Java Swing</li>
+            <li>JDBC</li>
+            <li>MySQL</li>
+          </ol>
+
+          <div class="work-links">
+
+            <a
+              href="https://github.com/AbhishePandey/Student-Management-System"
+              target="_blank"
+              rel="noopener"
+              class="link"
+            >
+              Explore this project
+            </a>
+
+            <!-- GitHub -->
+            <a
+              href="https://github.com/AbhishePandey/Student-Management-System"
+              target="_blank"
+              rel="noopener"
+              title="Source code"
+            >
+              <img
+                src="assets/images/social-links/github.svg"
+                alt="GitHub"
+                loading="lazy"
+              />
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Image kept same -->
+        <picture class="work-img">
+          <img
+            loading="lazy"
+            src="assets/images/student.png"
+            alt="Student Management System"
+          />
+        </picture>
+      </div>
+
+
+      <!-- Project 2: Hospital Management System -->
+      <div class="work-box">
+        <div class="work-textbox">
+
+          <h3 class="h3">Hospital Management System</h3>
+
+          <p class="work-text">
+            A Java-based Hospital Management System designed to manage
+            hospital-related information and different administrative modules.
+          </p>
+
+          <ol class="work-technologies">
+            <li>Java</li>
+            <li>Java Swing</li>
+            <li>JDBC</li>
+            <li>MySQL</li>
+          </ol>
+
+          <div class="work-links">
+
+            <a
+              href="https://github.com/AbhishePandey/Hospital-Management-System"
+              target="_blank"
+              rel="noopener"
+              class="link"
+            >
+              Explore this project
+            </a>
+
+            <!-- GitHub -->
+            <a
+              href="https://github.com/AbhishePandey/Hospital-Management-System"
+              target="_blank"
+              rel="noopener"
+              title="Source code"
+            >
+              <img
+                src="assets/images/social-links/github.svg"
+                alt="GitHub"
+                loading="lazy"
+              />
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Image kept same -->
+        <picture class="work-img">
+          <img
+            loading="lazy"
+            src="assets/images/hospital.png"
+            alt="Hospital Management System"
+          />
+        </picture>
+      </div>
+
+
+  
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+        <section class="Internship">
+  <div class="container">
+    <h2 class="h2" id="Internship">My Internship</h2>
+
+    <div class="article-boxes">
+
+      <!-- GIPL Internship - Frontend -->
+      <article class="article-box featured-article">
+        <div class="article-textbox">
+          <div>
+            <h3 class="h3">
+              Web Development Intern
+            </h3>
+
+            <p class="article-text">
+              <strong>GIPL, Jaipur, Rajasthan</strong>
+              <br />
+              Worked as a Web Development Intern and gained hands-on
+              experience in developing responsive and user-friendly web
+              interfaces.
+            </p>
+
+            <p class="article-text">
+              <strong>Technologies:</strong>
+              HTML, CSS, JavaScript, React.js
+              <br />
+              <strong>Work Area:</strong>
+              Frontend Development
+              <br />
+              <strong>Experience:</strong>
+              Practical Web Development
+            </p>
+          </div>
+
+          <div class="article-info">
+            <a
+              href="assets/documents/GIPL-Internship-Certificate.pdf"
+              class="link"
+              download
+            >
+              Download Certificate
+            </a>
+          </div>
+        </div>
+
+        <picture class="article-illustration">
+          <img
+            src="assets/images/featured-blog.webp"
+            alt="GIPL Internship"
+            loading="lazy"
+          />
+        </picture>
+      </article>
+   
+</section>
+       
+<div class="container">
+    <h2 class="h2" id="internship">My Education</h2>
+
+    <div class="article-boxes">
+
+         <!-- B.Tech -->
+<article class="article-box">
+  <div class="article-textbox">
+    <div>
+      <h3 class="h4">B.Tech – Computer Science & Engineering</h3>
+      <p class="article-text">
+        Modern Institute of Technology & Research Centre (MITRC), Alwar, Rajasthan
+        <br />
+        <strong>University:</strong> Bikaner Technical University (BTU), Rajasthan
+        <br />
+        <strong>Duration:</strong> 2023 – 2026
+        <br />
+        <strong>CGPA:</strong> 7.1 / 10
+        <br />
+        <strong>Status:</strong> Completed
+      </p>
+    </div>
+    <div class="article-info">
+      <a
+        href="assets/images/Abhishek k.pdf"
+        class="link"
+        download
+      >Download Degree</a>
+    </div>
+  </div>
+</article>
+
+<!-- Diploma -->
+<article class="article-box">
+  <div class="article-textbox">
+    <div>
+      <h3 class="h4">Diploma – Computer Science & Engineering</h3>
+      <p class="article-text">
+        Government Polytechnic Koderma, Jharkhand
+        <br />
+        <strong>University/Board:</strong> Jharkhand University of Technology (JUT), Jharkhand
+        <br />
+        <strong>Duration:</strong> 2020 – 2023
+        <br />
+        <strong>Percentage:</strong> 69%
+        <br />
+        <strong>Status:</strong> Completed
+      </p>
+    </div>
+    <div class="article-info">
+      <a
+        href="assets/images/WhatsApp Image 2026-10-07 at 1.21.16 AM.jpeg"
+        class="link"
+        download
+      >Download Certificate</a>
+    </div>
+  </div>
+</article>
+
+<!-- 10th -->
+<article class="article-box">
+  <div class="article-textbox">
+    <div>
+      <h3 class="h4">10th – Secondary Education</h3>
+      <p class="article-text">
+        Government School Tilokari, Jharkhand
+        <br />
+        <strong>Board:</strong> JAC Board, Jharkhand
+        <br />
+        <strong>Year:</strong> 2018
+        <br />
+        <strong>Percentage:</strong> 81%
+        <br />
+        <strong>Status:</strong> Completed
+      </p>
+    </div>
+    <div class="article-info">
+      <a
+        href="assets/images/WhatsApp Image 2026-10-07 at 1.21.15 AM.jpeg"
+        class="link"
+        download
+      >Download Marksheet</a>
+    </div>
+  </div>
+</article>
+
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/svelte.webp" alt="Svelte" class="skills-img" loading="lazy" title="Svelte">
+                 <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
+                 <img src="assets/images/skills/a11y.webp" alt="Accessibility" class="skills-img" loading="lazy" title="Web Accessibility">
+                 <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
+                 <img src="assets/images/skills/next-js.webp" alt="NextJS" class="skills-img" loading="lazy" title="NextJS">
+                 <img src="assets/images/skills/graphql.webp" alt="Graph Ql" class="skills-img" loading="lazy" title="Graph QL">
+                 <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                 <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+    
+    <section class="contact">
+  <div class="container">
+    <h2 class="h2" id="contact">Contact Me</h2>
+
+    <div class="contact-content">
+
+      <!-- Get In Touch - LEFT -->
+      <div class="contact-textbox contact-box-equal get-in-touch">
+
+        <h3 class="h3">Get In Touch</h3>
+
+        <p class="contact-text">
+          <strong>Email:</strong>
+          pandeyabhishek825109@gmail.com
+        </p>
+
+        <p class="contact-text">
+          <strong>Phone:</strong>
+          +91 8936811800
+        </p>
+
+        <p class="contact-text">
+          <strong>LinkedIn:</strong>
+          <a href="#" target="_blank" rel="noopener" class="link">
+            LinkedIn Profile
+          </a>
+        </p>
+
+        <p class="contact-text">
+          <strong>GitHub:</strong>
+          <a
+            href="https://github.com/AbhishePandey"
+            target="_blank"
+            rel="noopener"
+            class="link"
+          >
+            GitHub Profile
+          </a>
+        </p>
+
+      </div>
+
+
+      <!-- Available for Hire - RIGHT -->
+      <div class="contact-textbox contact-box-equal">
+
+        <strong class="hire-alert">
+          <span class="indicator"></span>
+          Available for hire
+        </strong>
+
+        <p class="contact-text">
+          Hi, I'm <strong>Abhishek Pandey</strong>, a Computer Science and
+          Engineering graduate and aspiring
+          <strong>Python Full Stack Developer</strong>.
+        </p>
+
+        <p class="contact-text">
+          I have practical experience with HTML, CSS, JavaScript, React.js,
+          Node.js, Python, Java, SQL and REST APIs. I am looking for an
+          opportunity to grow and contribute as a software developer.
+        </p>
+
+        <img
+          src="assets/images/Abhi.png"
+          alt="Abhishek Pandey"
+          class="signatures"
+          loading="lazy"
+        />
+
+      </div>
+
+    </div>
+  </div>
+</section>
+ </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/AbhishePandey" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Codepen" href="https://www.instagram.com/iaamabhishek01?stkn=MTd6d28xemR5ZmNucg==" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/codepen.svg"
+                    alt="Codepen"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/abhishek-pandey-4a901022a?utm_source=share_via&utm_content=profile&utm_medium=member_android/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2026</span> - Template designed & developed by <a target="_blank" rel="noopener" href="https://github.com/AbhishePandey">Abhishek Pandey.</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
